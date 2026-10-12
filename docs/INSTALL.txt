@@ -1,0 +1,23 @@
+Political Engine 0.6.3 — SkyrimNet Beta25 / Skyrim SE 1.6.1170
+
+This is the continuation of Political Letters v2.41, not a separate plugin.
+Install PoliticalEngine-v0.6.3-beta25.zip over the previous installation.
+For Russian UI, install PoliticalEngine-v0.6.3-Russian-patch.zip AFTER the base.
+The mod's name remains Political Engine in both languages. Letter language is
+still controlled by prompts, not the UI language. Restart Skyrim after updating.
+
+SAVE COMPATIBILITY: retain PoliticalLetters.esp and its original load position.
+Do not rename ESP/DLL/scripts, uninstall the old mod and save in-between, clean
+the save, or install two copies. Replace the existing files in the mod manager.
+Keep a backup of your .ess and matching .skse co-save before updating.
+
+Legacy technical identities deliberately remain PoliticalLetters: ESP/DLL,
+Papyrus types/properties, MCM IDs and INI paths, SkyrimNet bundle/variant/action
+IDs, PrismaUI directories, serialization signatures and schema versions.
+PoliticalLetters.log is also retained. Only displayed branding and release
+version change; existing letters, armies, regions, buildings, treasury, trade,
+relationship assessments and correspondence continue using their existing data.
+
+Includes the current v2.41 fixes, first-run relationship batch, strategic buildings,
+NPC negotiations/routes, full NPC trade correspondence/memory and tabbed UI.
+No new game or manual migration is required. Test on a copied save first.

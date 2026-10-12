@@ -1,0 +1,13 @@
+# Public Git history contains documentation only; upload ZIPs through Releases.
+/release-assets/
+*.zip
+*.7z
+*.rar
+*.ess
+*.skse
+*.log
+*.dmp
+.env*
+**/__pycache__/
+Thumbs.db
+desktop.ini
