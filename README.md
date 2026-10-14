@@ -3,20 +3,30 @@
 Political correspondence, diplomacy and an experimental strategy campaign for
 **Skyrim Special Edition + SkyrimNet**.
 
-This repository contains public release documentation only. The implementation
-source is maintained separately in a private repository. Download the mod from
-this repository's **Releases** section, not GitHub's automatic source-code ZIP.
+## (not very)Quick guide
 
-## Current release: 0.6.3
+**Letters**
+- You can place an unlimited number of postal stations by choosing from all available station types (the owl option is recommended).
+- You can configure the interval and chance of receiving letters, as well as choose the delivery method (courier or postal station). You can also completely replace the courier. This way, even vanilla letters that would normally be delivered by the courier will appear at the postal station.
+- You can interact with the owl to write and send a letter to someone.
 
-Upload these two assets to the release tagged `v0.6.3`:
+**Politics**
+- For the best experience, installing the “[LC-Build](https://www.nexusmods.com/skyrimspecialedition/mods/18308)” mod is recommended. However, the plugin also supports assigning a custom faction or taking control of a vanilla one. Both can be done through MCM or PrismaUI.
+- Starting with version 0.6.5, it is possible to gain control over a vanilla hold through dialogue (not letters).
+- Other jarls may not recognize your rights of ownership. Your claims derive from world knowledge.
+  
+**Interactive Map**
+_(well, you decided to become a Jarl)_
+- You can move and hire troops.
+- You have different relationship levels with other Jarls. This directly depends on memories and world knowledge.
+- Each region generates income in the form of gold and resources. You can improve these values by constructing new buildings in the region.
+- You can also establish various trade agreements with other Jarls. Successful trade improves relations.
+  
+**Battles**
+- If you find yourself at war with another hold, you can always stop the war if you manage to negotiate a truce.
+- Battles mostly take place in the field, but mod always uses a "City" battle as the final battle.
+- You can assign equipment to your fighters by equipping a follower with the desired set and then hovering the crosshair over them. Then, in the settings under the "Combats" tab, you can find the option to copy the loadout of the character currently in your crosshair.
 
-- `PoliticalEngine-v0.6.3-beta25.zip` — complete base installation, English UI.
-- `PoliticalEngine-v0.6.3-Russian-patch.zip` — Russian UI override; install after
-  the base. The product name remains **Political Engine** in both languages.
-
-The archives are staged locally in `release-assets/v0.6.3/`. That directory is
-ignored by Git: attach the ZIPs to a release instead of committing them as files.
 
 ## Features
 
@@ -32,7 +42,7 @@ War ownership. Route lines are schematic; physical caravans are not implemented.
 
 ## Installation
 
-Developed and built against Skyrim SE **1.6.1170** and SkyrimNet **Beta25**.
+Developed and built for Skyrim SE **1.6.1170** (VR supported) and SkyrimNet **Beta25** or later.
 Use the matching SKSE and required dependency versions. The UI requires SkyUI,
 MCM Helper and PrismaUI. Address Library is used by the native plugin. PapyrusUtil
 provides the StringUtil functions used by scripts. SeverActions integration and
@@ -44,17 +54,6 @@ desired. Enable `PoliticalLetters.esp` and restart Skyrim. Letter language remai
 prompt-controlled and independent of the UI language.
 
 See [English instructions](docs/INSTALL.txt) or [Русская инструкция](docs/INSTALL-RUSSIAN.txt).
-
-## Updating from Political Letters
-
-Version 0.6.3 is the continuation of the latest Political Letters v2.41.
-Legacy technical names, including `PoliticalLetters.esp`, DLL, scripts, settings
-and serialization keys, deliberately remain unchanged for save compatibility.
-
-Replace existing files without making an intermediate save. Do not rename the
-ESP or change its load-order position, clean the save, or enable duplicate copies.
-Back up both `.ess` and its matching `.skse` co-save and test the update on a copy.
-Offline checks passed; they do not guarantee compatibility with every save/mod.
 
 ## Credits and distribution
 
