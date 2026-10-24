@@ -57,10 +57,15 @@ The side panel has six tabs for the selected district: Overview, Economy, Buildi
   5. The Move troops button on the district panel does the same thing.
 
 **Rules that silently cap or block a move:**
+
   • One soldier stays behind unless you have all 8 points, which moves the entire group and spends all 8.
+
   • No moves while a battle is pending, the enemy turn is queued, or after your turn has ended.
+  
   • Passage: a neutral ruler with negative relations charges 2 treasury gold per soldier entering. At −50 or below, passage is refused. Your own land and enemy land are free.
+  
   • Enemy cities can't be entered while that enemy still holds field districts. Take the countryside first.
+  
   • Scouts move separately and reveal only the district they are in (this matters with fog of war on).
   
 If a move fails, the bar at the bottom of the map says why: Not enough turn points, Pending battle, Enemy turn pending or Waiting for daily refresh.
