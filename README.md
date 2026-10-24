@@ -54,8 +54,7 @@ The side panel has six tabs for the selected district: Overview, Economy, Buildi
   2. Click a highlighted neighbor. The move dialog opens.
   3. Pick the troop group and count. The dialog shows the point cost.
   4. Press Move troops. Cancel movement backs out.
-  5. 
-   The Move troops button on the district panel does the same thing.
+  5. The Move troops button on the district panel does the same thing.
 
 **Rules that silently cap or block a move:**
   • One soldier stays behind unless you have all 8 points, which moves the entire group and spends all 8.
