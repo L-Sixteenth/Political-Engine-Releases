@@ -156,13 +156,21 @@ To add someone as a letter writer: aim at them, open MCM → General → Add tar
 
 **Troubleshooting**
 
+
   **Can't move or recruit** - Out of points, turn already ended, or a battle is pending. Read the bottom bar; wait for the 24-hour refresh
+  
   **Build order "failed"** - Wrong building name (use the exact list), not enough gold/resources, or under 2 points
+  
   **Move capped one short** - Points below 8 keep 1 soldier behind
+  
   **Battle never starts** - Go to the staging marker; the site needs open, navmeshed ground
+  
   **NPCs cheer "that's the last of them" too early** - Battles come in waves; wait for the result message
+  
   **Right-click does nothing on field districts** - The map patch was reverted, usually by a mod update or reinstall. Re-apply it
+  
   **Allies argue mid-battle** - SkyrimNet GameMaster; press F3 to toggle it
+  
 
 **Logs:** Political Engine writes to Documents\My Games\Skyrim.INI\SKSE\, not the normal Skyrim Special Edition folder:
   • PoliticalLetters.log: turns, NPC moves, construction, battle results. If the issue relates to a core mechanic (script) or a crash, you may also need to provide the Papyrus0.log file and a crash log, if one exists.
