@@ -83,10 +83,15 @@ Moving into an enemy-held district starts a battle. You can fight it in real tim
   Campaign pacing: an engagement is offered every 6 game hours and can be deferred. The first three engagements are field battles; after that, results and reserves decide whether it becomes a siege. Bodies are capped at 30 (oldest removed first, never while you're looting).
 
 **Tips:**
+
   • Press F3 before a battle to turn off SkyrimNet's GameMaster. Otherwise it starts side conversations between soldiers mid-fight.
+  
   • Say one battle line to your allies first, such as "Hold the line, more are coming." Their dialogue otherwise picks up from your last line before the battle.
+  
   • Troop commands (follow, hold, attack, retreat, plus a hold-Mouse4 command wheel) are off by default. Turn them on under MCM → Troop Commands.
+  
   • After a lost field battle, the loser's other districts in that hold may drop to 0. In your Dawnstar battle, Dawnstar lost 139 of the roughly 150 soldiers it fielded, which looks like the hold's whole army. Undefended districts are cheap to take next turn.
+  
   
 **Economy, recruiting and buildings**
 
@@ -129,14 +134,23 @@ Each district earns about 100 treasury gold a day, scaled by prosperity, and pro
 
 Rulers write to you through SkyrimNet. On a set interval of game hours, the AI decides whether anyone should write, so an interval passing doesn't guarantee a letter. 
 Each sender then waits about 2 game days before writing again unprompted, though that pause is lifted while you are actively corresponding with them.
+
   • Delivery: the vanilla courier by default. Alternatively, place a postal station (mailbox, dovecote or owl post) from MCM → Delivery; every station shares the same mail.
+  
   • Replying: your reply goes out as outgoing mail, and the ruler answers on the next decision check. The panel keeps the last 10 exchanges per ruler.
+  
   • Relations: each ruler gets a score built from SkyrimNet memories, dialogue and letters. It sets the tone of their letters, plus passage tolls and refusals (see Moving troops).
+  
   • War: declare war with the outgoing-mail checkbox. An NPC's declaration only becomes eligible once you've read their letter, and you confirm before a campaign starts.
+  
   • Peace: after 3 straight defeats, the losing side may offer peace on its turn. You must accept for the war to end.
+  
   • Trade: a deal must be signed by a steward, governor or ruler. NPC realms also trade among themselves.
+  
   • Delegations: outgoing, incoming or a wartime neutral meeting. Discuss terms with the envoy, then finish the meeting in the panel.
+  
   • Positions tab: appoint NPCs (steward, governor, commander, housecarl and so on). This is a political position only; their vanilla AI and quests stay the same.
+  
   
 To add someone as a letter writer: aim at them, open MCM → General → Add targeted NPC. Jarls are included automatically. Test targeted NPC forces a letter right away.
 
