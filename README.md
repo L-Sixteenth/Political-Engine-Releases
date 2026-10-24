@@ -7,7 +7,7 @@ Political correspondence, diplomacy and an experimental strategy campaign for
 
   Political Engine  adds a turn-based strategy layer on top of Skyrim: holds are realms, each realm is split into districts, and you play one realm (your "Fellburg") against the others. The real world keeps going — battles are fought in real time, and rulers write you letters through SkyrimNet.
 
-**The core loop:**
+### **The core loop:**
 
   1. Turn starts. Your 8 turn points refill and treasury income lands.
   2. Spend points. Move troops, recruit, build, send scouts.
@@ -17,10 +17,10 @@ Political correspondence, diplomacy and an experimental strategy campaign for
 
   It never changes vanilla ownership, Civil War quests or the real jarls — it is a political layer on top. Settings live in MCM → Political Letters; the map and management panel open from MCM (General → Open PrismaUI control panel) or your hotkey, Numpad − (key 74).
 
-**Reading the map**
+### **Reading the map**
   The map shows approximate borders — not vanilla quest boundaries. Each hold has a stronghold (the city) plus field districts such as Solitude Coast, Sea of Ghosts Coast or Heljarchen Plains.
 
-**Mouse action**
+### **Mouse action**
   What it does
     Click a district - Select it; the side panel shows its details
     Double-click your district - Start a troop move from it
@@ -30,14 +30,14 @@ Political correspondence, diplomacy and an experimental strategy campaign for
   Each district badge lists the troops in it, one row per realm, in that realm's color; a city shows a garrison total. ?? means fog of war is hiding the count (fog is off by default).
 The side panel has six tabs for the selected district: Overview, Economy, Buildings, Diplomacy, Army (recruit) and Positions (appointments). MCM → General → Map display toggles labels, city names, trade routes, delegations and opacity.
 
-**Turns and turn points**
+### **Turns and turn points**
 
   You get 8 turn points per turn, and they refill only on the timer — every 24 game hours by default. End/skip turn does not refill them; it just lets the enemy act sooner.
   • Your turn ends when you press End/skip, spend all 8 points, or reach the deadline. After that the map says "Waiting for daily refresh" and nothing can move until the next refill.
   • Battles delay enemy responses, not your refill.
   • Waiting (the vanilla wait/sleep menu) is the fastest way to reach the next refill.
   
-## **Action**
+### **Action**
 
 **Point cost**
   Move troops -1 per 8 soldiers, max 8
@@ -73,7 +73,7 @@ Battles
 
 Moving into an enemy-held district starts a battle. You can fight it in real time or let auto-battle resolve it.
 
-**Real-time field battle:**
+### **Real-time field battle:**
   1. The game finds open, navmeshed ground in that district and says "Field battle prepared in … Approach your army's marked staging area to begin." You get a journal objective.
   2. Walk or ride to the marker. Combat starts when you arrive.
   3. Soldiers arrive in waves: at most 8 per side are on the field at once, and replacements keep coming until a side's committed troops run out. A lull is not the end. Wait for the result message.
@@ -82,7 +82,7 @@ Moving into an enemy-held district starts a battle. You can fight it in real tim
 
   Campaign pacing: an engagement is offered every 6 game hours and can be deferred. The first three engagements are field battles; after that, results and reserves decide whether it becomes a siege. Bodies are capped at 30 (oldest removed first, never while you're looting).
 
-**Tips:**
+### **Tips:**
 
   • Press F3 before a battle to turn off SkyrimNet's GameMaster. Otherwise it starts side conversations between soldiers mid-fight.
   
@@ -93,13 +93,13 @@ Moving into an enemy-held district starts a battle. You can fight it in real tim
   • After a lost field battle, the loser's other districts in that hold may drop to 0. In your Dawnstar battle, Dawnstar lost 139 of the roughly 150 soldiers it fielded, which looks like the hold's whole army. Undefended districts are cheap to take next turn.
   
   
-**Economy, recruiting and buildings**
+### **Economy, recruiting and buildings**
 
-Each district earns about 100 treasury gold a day, scaled by prosperity, and produces abstract resources: grain, timber, ore, fish, crafts, alchemy. Confirmed trade routes move goods and gold daily, and war suspends them. None of this is real inventory.
+  Each district earns about 100 treasury gold a day, scaled by prosperity, and produces abstract resources: grain, timber, ore, fish, crafts, alchemy. Confirmed trade routes move goods and gold daily, and war suspends them. None of this is real inventory.
 
-**Recruiting (side panel → Army):** select one of your districts, pick a count, and pay 100 treasury gold per soldier plus 1 point per 8. Soldiers exist as numbers and only spawn during battles. Archers need an Archery Range in that district, and mages need a Battlemage Tower. Every side also regains 6 troops per game day on its own.
+  **Recruiting (side panel → Army):** select one of your districts, pick a count, and pay 100 treasury gold per soldier plus 1 point per 8. Soldiers exist as numbers and only spawn during battles. Archers need an Archery Range in that district, and mages need a Battlemage Tower. Every side also regains 6 troops per game day on its own.
 
-**Building (side panel → Buildings):** each build or upgrade costs 2 points plus gold and resources. Buildings have 3 levels and pass to whoever captures the district. No world models appear.
+  **Building (side panel → Buildings):** each build or upgrade costs 2 points plus gold and resources. Buildings have 3 levels and pass to whoever captures the district. No world models appear.
 
 **Building**
   **Effect per level**
@@ -130,7 +130,7 @@ Each district earns about 100 treasury gold a day, scaled by prosperity, and pro
       
   Ordering a ruler to build (by letter or conversation): use the exact names above. "Fishery" fails where "Fish ponds" works, because the name is checked exactly. NPC realms build at most once every third strategic turn, using their own treasury.
 
-**Letters, diplomacy and positions**
+### **Letters, diplomacy and positions**
 
 Rulers write to you through SkyrimNet. On a set interval of game hours, the AI decides whether anyone should write, so an interval passing doesn't guarantee a letter. 
 Each sender then waits about 2 game days before writing again unprompted, though that pause is lifted while you are actively corresponding with them.
@@ -154,7 +154,7 @@ Each sender then waits about 2 game days before writing again unprompted, though
   
 To add someone as a letter writer: aim at them, open MCM → General → Add targeted NPC. Jarls are included automatically. Test targeted NPC forces a letter right away.
 
-**Troubleshooting**
+### **Troubleshooting**
 
 
   **Can't move or recruit** - Out of points, turn already ended, or a battle is pending. Read the bottom bar; wait for the 24-hour refresh
