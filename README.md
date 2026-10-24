@@ -76,7 +76,7 @@ Moving into an enemy-held district starts a battle. You can fight it in real tim
 ### **Real-time field battle:**
   1. The game finds open, navmeshed ground in that district and says "Field battle prepared in … Approach your army's marked staging area to begin." You get a journal objective.
   2. Walk or ride to the marker. Combat starts when you arrive.
-  3. Soldiers arrive in waves: at most 8 per side are on the field at once, and replacements keep coming until a side's committed troops run out. A lull is not the end. Wait for the result message.
+  3. Soldiers arrive in waves: at most 8 per side are on the field at once (you can increase that number in settings), and replacements keep coming until a side's committed troops run out. A lull is not the end. Wait for the result message.
   4. You get a casualty report, for example "victory for Moonstone Castle … lost 6; Dawnstar lost 139". With war history on, the opponent's commander gets a memory of it.
   5. Auto-battle simulates the fight from abstract army levels (both 20 by default), not real NPC gear.
 
