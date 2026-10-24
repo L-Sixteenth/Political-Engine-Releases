@@ -3,7 +3,7 @@
 Political correspondence, diplomacy and an experimental strategy campaign for
 **Skyrim Special Edition + SkyrimNet**.
 
-## (not very)Quick guide (updated, thanks to Whyregister
+## (not very)Quick guide (updated, thanks to Whyregister)
 
 Political Engine  adds a turn-based strategy layer on top of Skyrim: holds are realms, each realm is split into districts, and you play one realm (your "Fellburg") against the others. The real world keeps going — battles are fought in real time, and rulers write you letters through SkyrimNet.
 
