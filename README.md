@@ -74,10 +74,9 @@ Moving into an enemy-held district starts a battle. You can fight it in real tim
   2. Walk or ride to the marker. Combat starts when you arrive.
   3. Soldiers arrive in waves: at most 8 per side are on the field at once, and replacements keep coming until a side's committed troops run out. A lull is not the end. Wait for the result message.
   4. You get a casualty report, for example "victory for Moonstone Castle … lost 6; Dawnstar lost 139". With war history on, the opponent's commander gets a memory of it.
-  5. 
-Auto-battle simulates the fight from abstract army levels (both 20 by default), not real NPC gear.
+  5. Auto-battle simulates the fight from abstract army levels (both 20 by default), not real NPC gear.
 
-Campaign pacing: an engagement is offered every 6 game hours and can be deferred. The first three engagements are field battles; after that, results and reserves decide whether it becomes a siege. Bodies are capped at 30 (oldest removed first, never while you're looting).
+  Campaign pacing: an engagement is offered every 6 game hours and can be deferred. The first three engagements are field battles; after that, results and reserves decide whether it becomes a siege. Bodies are capped at 30 (oldest removed first, never while you're looting).
 
 **Tips:**
   • Press F3 before a battle to turn off SkyrimNet's GameMaster. Otherwise it starts side conversations between soldiers mid-fight.
